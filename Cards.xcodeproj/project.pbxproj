@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF6AD8E32E772422008977F0 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF6AD8E32E772422008977F0 /* Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Cards.app; path = "/Users/cpwfo1/Desktop/Cards-App2/build/Debug-iphoneos/Cards.app"; sourceTree = "<absolute>"; };
 		EF6AD9622E776969008977F0 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Stickers; path = Cards/Assets.xcassets/Stickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -52,16 +52,7 @@
 			children = (
 				EF6AD9622E776969008977F0 /* Stickers */,
 				EF6AD8E52E772422008977F0 /* Cards */,
-				EF6AD8E42E772422008977F0 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		EF6AD8E42E772422008977F0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EF6AD8E32E772422008977F0 /* Cards.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,7 +105,7 @@
 			mainGroup = EF6AD8DA2E772422008977F0;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = EF6AD8E42E772422008977F0 /* Products */;
+			productRefGroup = EF6AD8DA2E772422008977F0;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (

@@ -9,11 +9,15 @@ import Foundation
 import SwiftUI
 
 extension Color {
-    static let colors: [Color] = [
-        .green, .red, .blue, .gray, .yellow, .pink, .orange, .purple
+  static let Colors: [Color] = [
+    .random1,.random2,.random3, .random4,
+    .random5,.random6,.random7, .random8
     ]
     
-    static func random() -> Color {
-        colors.randomElement() ?? .black
-    }
+    
+    
+    
+  static func random() -> Color {
+    Colors.randomElement() ?? .black
+  }
 }
